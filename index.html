@@ -127,7 +127,7 @@ button{
 <script>
 /* Name from URL */
 const params = new URLSearchParams(window.location.search);
-const name = params.get("name") || "Swathi";
+const name = params.get("name") || "name";
 
 document.getElementById("question").innerText =
 `${name}, do you want to celebrate your birthday with me? 🎂`;
@@ -206,3 +206,4 @@ function yesClicked(){
 
 </body>
 </html>
+
